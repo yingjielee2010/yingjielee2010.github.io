@@ -1,14 +1,15 @@
 (function($){
   // Caption
-  $('.content').each(function(i){
+  $('.entry').each(function(i){
     $(this).find('img').each(function(){
       if (!$(this).hasClass('nofancybox')){
         var alt = this.alt;
+
         if (alt){
-          $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery' + i + '" />');
-        } else {
-          $(this).wrap('<a href="' + this.src + '" class="fancybox" rel="gallery' + i + '" />');
-	    }
+          $(this).after('<span class="caption">' + alt + '</span>');
+        }
+
+        $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery' + i + '" />');
       }
     });
   });
