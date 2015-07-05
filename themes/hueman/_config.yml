@@ -1,0 +1,58 @@
+# Logo Url
+# Please enter the absolute path to your logo file
+# or remove the following line with replacing logo-header.png with your own logo
+logo: /images/logo-header.png
+
+# Header
+menu:
+  Home: /
+  # Delete this row if you don't want categories in your header nav bar
+  Archives: /archives/archives.html
+  Category: /categories/index.html
+  Tags: /tags/index.html
+  About: /about/index.html
+
+# Article list grouped by year
+groupByYear: true
+
+# Content
+fancybox: true
+
+# Thumbnail
+thumbnail: true
+
+# Scroll Loading
+scrollLoading: true
+
+# Sidebar
+sidebar: right // sidebar's position (left or right)
+social_links:
+  twitter:
+  facebook:
+  google_plus:
+  github: https://github.com/ppoffice/hexo-theme-hueman
+  weibo:
+  rss:
+widgets:
+- recent_posts
+- category
+- archive
+- tag
+- tagcloud
+- links
+
+# Links
+links:
+  Hexo: http://hexo.io
+
+# Disqus #社会化评论disqus
+disqus_shortname: leesudo
+
+# Don't Use Google APIs if you are in google-blocked areas
+use_google_apis: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+fb_admins:
+fb_app_id:
