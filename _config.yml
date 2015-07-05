@@ -67,6 +67,9 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: hueman
 
+# Disqus #社会化评论disqus
+disqus_shortname: leesudo
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

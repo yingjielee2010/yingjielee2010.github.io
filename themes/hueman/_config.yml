@@ -45,9 +45,6 @@ widgets:
 links:
   Hexo: http://hexo.io
 
-# Disqus #社会化评论disqus
-disqus_shortname: leesudo
-
 # Don't Use Google APIs if you are in google-blocked areas
 use_google_apis: false
 
