@@ -5,12 +5,11 @@ logo: /images/logo-header.png
 
 # Header
 menu:
-  Home: /
-  # Delete this row if you don't want categories in your header nav bar
-  Archives: /archives/archives.html
-  Category: /categories/index.html
-  Tags: /tags/index.html
-  About: /about/index.html
+  Home | 主页: /
+  Archives | 归档: /archives/archives.html
+  Categories | 分类: /categories/index.html
+  Tags | 标签: /tags/index.html
+  About | 关于: /about/index.html
 
 # Article list grouped by year
 groupByYear: true
